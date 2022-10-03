@@ -1,0 +1,8 @@
+__pycache__/
+*pyc
+checkpoints/
+*pkl
+models/gtad/
+models/gtad_lib/
+results/
+runs/

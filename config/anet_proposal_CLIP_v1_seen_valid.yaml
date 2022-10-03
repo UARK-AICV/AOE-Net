@@ -1,0 +1,55 @@
+MODE: 'validation'
+EVAL_TYPE: 'proposal'
+DATASET: 'anet'
+USE_ENV: True
+USE_AGENT: True
+USE_OBJ: True
+EVAL_SCORE: 'AUC'
+GPU_IDS: [0,1,2,3]
+TRAIN:
+  SPLIT: 'training'
+  NUM_EPOCHS: 10
+  BATCH_SIZE: 16
+  # STEP_PERIOD: 4
+  LR: 0.0001
+  LOG_DIR: 'runs/c3d_runs_obj_CLIP_v1/'
+VAL:
+  SPLIT: 'validation'
+  BATCH_SIZE: 16
+TEST:
+  SPLIT: 'testing'
+  BATCH_SIZE: 16
+  #CHECKPOINT_PATH: 'checkpoints/c3d_checkpoints/checkpoint_41/best_AUC.pth'
+  #CHECKPOINT_PATH: 'checkpoints/best_checkpoints/best_anet_c3d_env_only/best_AUC.pth'
+  CHECKPOINT_PATH: '/home/ngan_uark/tqsang/AEN_BERT/checkpoints/c3d_checkpoints_obj_CLIP_v1_seen/checkpoint_9/best_AUC.pth'
+DATA:
+  ANNOTATION_FILE: '/home/ngan_uark/tqsang/AEN_BERT/unseen_anet13.json'
+  #ANNOTATION_FILE: '../datasets/activitynet/annotations/seen+unseen_anet13.json'
+  ENV_FEATURE_DIR: '/home/tqsang/datasets/activitynet/c3d_env_features/'
+  AGENT_FEATURE_DIR: '/home/tqsang/datasets/activitynet/c3d_agent_features/'
+  OBJ_FEATURE_DIR: '/data/tqsang/CLIP_output_ft/'
+  #ENV_FEATURE_DIR: '../datasets/activitynet/slowfast_env_features/'
+  #AGENT_FEATURE_DIR: '../datasets/activitynet/slowfast_agent_features/'
+  RESULT_PATH: 'results/results.json'
+  FIGURE_PATH: 'results/results.pdf'
+  TEMPORAL_DIM: 100
+  MAX_DURATION: 100
+MODEL:
+  BOUNDARY_MATCHING_MODULE: 'bmn'
+  SCORE_PATH: 'checkpoints/c3d_checkpoints_obj_CLIP_v1_seen/scores.json'
+  CHECKPOINT_DIR: 'checkpoints/c3d_checkpoints_obj_CLIP_v1_seen/'
+  ENV_DIM: 2048
+  AGENT_DIM: 2048
+  OBJ_DIM: 512
+  ENV_HIDDEN_DIM: 2048
+  AGENT_HIDDEN_DIM: 2048
+  OBJ_HIDDEN_DIM: 2048
+  FEAT_DIM: 2048
+  TRANSFORMER_DIM: 1024
+  TOPK_AGENTS: 4
+BMN:
+  POST_PROCESS:
+    MAX_PROPOSALS: 3000
+    SOFT_NMS_ALPHA: 0.3
+    SOFT_NMS_LOW_THRESHOLD: 0.5
+    SOFT_NMS_HIGH_THRESHOLD: 0.9
