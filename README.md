@@ -50,25 +50,23 @@ paper: [AOE-Net: Entities Interactions Modeling with Adaptive Attention Mechanis
 ## Citation
 If you find AEI useful for your research, please consider citing:
 ```
-@article{khoavoAEI2021,
-  author    = {Khoa Vo and
-               Hyekang Joo and
-               Kashu Yamazaki and
-               Sang Truong and
-               Kris Kitani and
-               Minh{-}Triet Tran and
-               Ngan Le},
-  title     = {{AEI:} Actors-Environment Interaction with Adaptive Attention for
-               Temporal Action Proposals Generation},
-  journal   = {CoRR},
-  volume    = {abs/2110.11474},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2110.11474},
-  eprinttype = {arXiv},
-  eprint    = {2110.11474},
+@article{vo2021aei,
+ author = {Vo, Khoa and Joo, Hyekang and Yamazaki, Kashu and Truong, Sang and Kitani, Kris and Tran, Minh-Triet and Le, Ngan},
+ journal = {BMVC},
+ title = {{{AEI}: Actors-Environment Interaction with Adaptive Attention for Temporal Action Proposals Generation}},
+ year = {2021}
 }
 ```
 
+and 
+```
+@article{vo2022aoe,
+ author = {Vo, Khoa and Truong, Sang and Yamazaki, Kashu and Raj, Bhiksha and Tran, Minh-Triet and Le, Ngan},
+ journal = {International Journal of Computer Vision},
+ title = {{AOE-Net}: Entities Interactions Modeling with Adaptive Attention Mechanism for Temporal Action Proposals Generation},
+ year = {2022}
+}
+```
 
 ## Contact
 Khoa Vo:
