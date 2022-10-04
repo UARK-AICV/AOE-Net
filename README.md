@@ -24,7 +24,7 @@ Source code of paper:
 ## Training and Testing  of AOE-Net
 Default configurations of AOE-Net are stored in config/defaults.py.
 The modified configurations are stored in config/*.yaml for training and testing of AOE on different datasets (ActivityNet-1.3 and THUMOS-14).
-We can also modify configurations through commandline arguments.
+We can also modify configurations through command-line arguments.
 
 1. To train AOE-Net on TAPG task of ActivityNet-1.3 with 1 GPU:
 ```
