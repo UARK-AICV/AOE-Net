@@ -28,12 +28,12 @@ We can also modify configurations through commandline arguments.
 
 1. To train AOE-Net on TAPG task of ActivityNet-1.3 with 1 GPU:
 ```
-python main.py --cfg-file config/anet_proposals.yaml MODE 'training' GPU_IDS [0]
+python main.py --cfg-file config/anet_proposal_CLIP_v1.yaml MODE 'training' GPU_IDS [0]
 ```
 
 2. To evaluate AOE-Net on validation set of ActivityNet-1.3 with 1 GPU:
 ```
-python main.py --cfg-file config/anet_proposals.yaml MODE 'validation' GPU_IDS [0]
+python main.py --cfg-file config/anet_proposals_CLIP_v1.yaml MODE 'validation' GPU_IDS [0]
 ```
 
 ## Reference
