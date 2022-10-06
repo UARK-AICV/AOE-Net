@@ -15,11 +15,19 @@ Source code of paper:
 
 
 ## Download Features
+We use CLIP to extract object texts of the center-frame of every snippet, for both ActivityNet-1.3 and THUMOS-14. and store there embedding features.
+Please download the features of the desired dataset and modify config file to point to respective directories that contain the features.
+### ActivityNet-1.3
 3D Resnet-50 features extracted from rescaled videos of ActivityNet-1.3 can be downloaded below:
 * Environment features are [here](https://drive.google.com/file/d/1hPhcQ7EzyCh0A3SyZfgZScFVFZMEvVhe/view?usp=sharing).
 * Actor features are [here](https://drive.google.com/file/d/1lOQG1FgDseRKDs3RNgpKd000OOZiag1s/view?usp=sharing).
 * Object features are [here](https://uark-my.sharepoint.com/:u:/g/personal/sangt_uark_edu/EW1wAz-z955HuZUD49yxAaQB8Rc3eOPMpkWZQ0b2LURqnA?e=jj9zSU).
 * Annotations of [Activitynet-1.3](http://ec2-52-25-205-214.us-west-2.compute.amazonaws.com/files/activity_net.v1-3.min.json) can be downloaded from the [official website](http://activity-net.org/download.html).
+### THUMOS-14
+TSN are applied for environment features and 3D Resnet-50 are applied for actors feature. All features can be downloaded below:
+* Environment features are [here](https://uark-my.sharepoint.com/:u:/g/personal/sangt_uark_edu/ERQcaeycpdFOmffw-filucgBUe6p-8_qG2ljPUD1_94_Tw?e=AFRMLb).
+* Actor features are [here](https://uark-my.sharepoint.com/:u:/g/personal/sangt_uark_edu/EVIEseHjREJMom56WXkdGR8BFoR9OCOSRSYE3zKSJs3q2A?e=tC8hH5).
+* Object features are [here](https://uark-my.sharepoint.com/:u:/g/personal/sangt_uark_edu/EVIEseHjREJMom56WXkdGR8BFoR9OCOSRSYE3zKSJs3q2A?e=tC8hH5).
 
 ## Training and Testing  of AOE-Net
 Default configurations of AOE-Net are stored in config/defaults.py.
