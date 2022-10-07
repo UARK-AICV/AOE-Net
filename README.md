@@ -8,13 +8,14 @@ Source code of paper:
 
 ## Installation Guide
 
-1. conda create -n AOENet python=3.8
-2. conda activate AOENet
-3. git clone https://github.com/UARK-AICV/AOE-Net.git
-4. cd AOE-Net
-5. conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
-6. pip install tqdm pandas tensorboard matplotlib fvcore scipy
-
+```
+conda create -n AOENet python=3.8
+conda activate AOENet
+git clone https://github.com/UARK-AICV/AOE-Net.git
+cd AOE-Net
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+pip install tqdm pandas tensorboard matplotlib fvcore scipy
+```
 
 ## Download Features
 We use CLIP to extract object texts of the center-frame of every snippet, for both ActivityNet-1.3 and THUMOS-14. and store there embedding features.
