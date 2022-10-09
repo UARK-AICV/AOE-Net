@@ -1,4 +1,6 @@
 # AOE-Net
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/aoe-net-entities-interactions-modeling-with/temporal-action-proposal-generation-on)](https://paperswithcode.com/sota/temporal-action-proposal-generation-on?p=aoe-net-entities-interactions-modeling-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/aoe-net-entities-interactions-modeling-with/temporal-action-proposal-generation-on-thumos)](https://paperswithcode.com/sota/temporal-action-proposal-generation-on-thumos?p=aoe-net-entities-interactions-modeling-with)
 
 Source code of paper:
  "AOE-Net: Entities Interactions Modeling with Adaptive Attention Mechanism for Temporal Action Proposals Generation",
