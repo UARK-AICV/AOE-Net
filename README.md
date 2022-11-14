@@ -75,10 +75,20 @@ If you find AEI useful for your research, please consider citing:
 and 
 ```
 @article{vo2022aoe,
- author = {Vo, Khoa and Truong, Sang and Yamazaki, Kashu and Raj, Bhiksha and Tran, Minh-Triet and Le, Ngan},
- journal = {International Journal of Computer Vision},
- title = {{AOE-Net}: Entities Interactions Modeling with Adaptive Attention Mechanism for Temporal Action Proposals Generation},
- year = {2022}
+author={Vo, Khoa
+and Truong, Sang
+and Yamazaki, Kashu
+and Raj, Bhiksha
+and Tran, Minh-Triet
+and Le, Ngan},
+title={AOE-Net: Entities Interactions Modeling with Adaptive Attention Mechanism for Temporal Action Proposals Generation},
+journal={International Journal of Computer Vision},
+year={2022},
+month={Oct},
+day={28},
+issn={1573-1405},
+doi={10.1007/s11263-022-01702-9},
+url={https://doi.org/10.1007/s11263-022-01702-9}
 }
 ```
 
