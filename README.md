@@ -6,7 +6,7 @@ Source code of paper:
  "AOE-Net: Entities Interactions Modeling with Adaptive Attention Mechanism for Temporal Action Proposals Generation",
   which is accepted for publication in [International Journal of Computer Vision](https://www.springer.com/journal/11263).
 
-### [arXiv](https://arxiv.org/abs/2210.02578)
+### [Paper](https://link.springer.com/article/10.1007/s11263-022-01702-9) | [ArXiv](https://arxiv.org/abs/2210.02578)
 
 ## Installation Guide
 
