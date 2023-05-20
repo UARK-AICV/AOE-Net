@@ -32,7 +32,7 @@ Please download the features of the desired dataset and modify config file to po
 TSN are applied for environment features and 3D Resnet-50 are applied for actors feature. All features can be downloaded below:
 * Environment features are [here](https://uark-my.sharepoint.com/:u:/g/personal/sangt_uark_edu/ERQcaeycpdFOmffw-filucgBUe6p-8_qG2ljPUD1_94_Tw?e=AFRMLb).
 * Actor features are [here](https://uark-my.sharepoint.com/:u:/g/personal/sangt_uark_edu/EVIEseHjREJMom56WXkdGR8BFoR9OCOSRSYE3zKSJs3q2A?e=tC8hH5).
-* Object features are [here](https://uark-my.sharepoint.com/:u:/r/personal/sangt_uark_edu/Documents/thumos/THUMOS_obj.zip?csf=1&web=1&e=2N7pig).
+* Object features are [here](https://uark-my.sharepoint.com/:u:/g/personal/sangt_uark_edu/EazG3ctZhYVLrXcfxTNnNlIBzKOAB2NOIfoWUCMMLzfM3w?e=is60v9).
 
 ## Training and Testing  of AOE-Net
 Default configurations of AOE-Net are stored in config/defaults.py.
