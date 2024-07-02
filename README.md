@@ -26,7 +26,7 @@ Please download the features of the desired dataset and modify config file to po
 3D Resnet-50 features extracted from rescaled videos of ActivityNet-1.3 can be downloaded below:
 * Environment features are [here](https://drive.google.com/file/d/1hPhcQ7EzyCh0A3SyZfgZScFVFZMEvVhe/view?usp=sharing).
 * Actor features are [here](https://drive.google.com/file/d/1lOQG1FgDseRKDs3RNgpKd000OOZiag1s/view?usp=sharing).
-* Object features are [here](https://uark-my.sharepoint.com/:u:/g/personal/sangt_uark_edu/EW1wAz-z955HuZUD49yxAaQB8Rc3eOPMpkWZQ0b2LURqnA?e=jj9zSU).
+* Object features are [here](https://uark-my.sharepoint.com/:u:/g/personal/sangt_uark_edu/EW1wAz-z955HuZUD49yxAaQBQKnzmBpXUQZak7PN2xEngA?e=JlHRwH).
 * Annotations of [Activitynet-1.3](http://ec2-52-25-205-214.us-west-2.compute.amazonaws.com/files/activity_net.v1-3.min.json) can be downloaded from the [official website](http://activity-net.org/download.html).
 ### THUMOS-14
 TSN are applied for environment features and 3D Resnet-50 are applied for actors feature. All features can be downloaded below:
